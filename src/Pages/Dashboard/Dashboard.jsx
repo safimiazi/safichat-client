@@ -1,6 +1,6 @@
 import { LiaEdit } from "react-icons/lia";
 import user from "../../assets/user.jpg"
-import { FaFacebook, FaPhoneAlt, FaVideo } from "react-icons/fa";
+import {FaPhoneAlt, FaVideo } from "react-icons/fa";
 
 
 
