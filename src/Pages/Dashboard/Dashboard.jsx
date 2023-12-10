@@ -1,7 +1,7 @@
 import { LiaEdit } from "react-icons/lia";
 import user from "../../assets/user.jpg"
-import { FaPhoneAlt, FaVideo } from "react-icons/fa";
-import { IoIosSettings } from "react-icons/io";
+import { FaFacebook, FaPhoneAlt, FaVideo } from "react-icons/fa";
+
 
 
 
@@ -69,7 +69,7 @@ const Dashboard = () => {
                         <IoIosSettings className="text-2xl"></IoIosSettings>
                     </div>
                 </div>
-                <div className="border h-[80%] border-red-600 w-full overflow-auto">
+                <div className="border rounded-md mt-5 h-[80%] border-red-600 w-full overflow-auto">
                     <div className="h-[1000px] px-10 py-14 border">
                         <div className=" mb-4 max-w-[50%] rounded-md border-2 bg-cyan-300 p-4">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -85,15 +85,19 @@ const Dashboard = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mt-10 flex gap-2">
+                <div className="mt-5 flex gap-2">
                     <input type="search" name="search" placeholder='Type Here...' className='p-3 shadow-md border w-full rounded-full' id="" />
-                     <button type="submit" className='p-3 border rounded-full font-bold bg-cyan-400 shadow-md'>Send</button>
+                    <button type="submit" className='p-3 border rounded-full font-bold bg-cyan-400 shadow-md'>Send</button>
                 </div>
             </div>
 
 
             <div className='w-[25%] border h-screen p-10'>
-
+                <div className=" border-2">
+                    <img src={user} className="w-[150px] mx-auto mb-3 rounded-full border-2" alt="" />
+                    <h3 className="text-2xl text-center font-bold">Md Safi Miazi</h3>
+                </div>
+                
             </div>
         </div>
     );
